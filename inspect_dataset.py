@@ -30,4 +30,3 @@ selected = record["passages"]["is_selected"]
 for i, (en, hi, flag) in enumerate(zip(english, hindi, selected), start=1):
     print(f"\nPassage {i} | selected={flag}")
     print("Hindi:", hi)
-    print("English:", en)
